@@ -1,0 +1,17 @@
+# Site settings
+title: Tom Skarbek-Wazynski | Designer & Developer
+
+email: wazynski@gmail.com
+email_obfus: wazynski [@] gmail.com
+tel: +44 [0] 7535 644 344
+
+description: > # Designer, developer & enthusiast photographer. Lead innovation developer at Lancaster University. Also enjoys a good whisky.
+colophon: "Typeset in FF Tisa Pro, Neuzeit Grotesk &amp; Inconsolata. All rights reserved, Tom Skarbek-Wazynski."
+
+baseurl: ""
+url: "http://skarbek-wazynski.co.uk" # the base hostname & protocol for your site
+twitter_username: wazynski
+github_username:  wazynski
+
+# Build settings
+markdown: kramdown
