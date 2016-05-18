@@ -8,13 +8,15 @@ body {
 }
 
 h1 {
-  font-size: 1em;
-  color: $alt-four;
   font-family: $secondary-font-family;
-  text-align: center;
+  font-size: 1em;
   font-weight: 500;
-  letter-spacing: 0.05em;
+
+  text-align: center;
+  letter-spacing: .05em;
   text-transform: uppercase;
+
+  color: $alt-four;
 }
 
 header {
@@ -22,22 +24,31 @@ header {
 
   img {
     display: block;
+
     width: 50px;
     margin: 0 auto;
+
     text-align: center;
   }
-
 }
 
 .about {
-  color: $alt-four;
   font-size: 1.75em;
+
+  padding: 2em;
+
   text-align: center;
-  padding: 2em 2em;
+
+  color: $alt-four;
 
   a {
     text-decoration: none;
+
     border-bottom: 1px solid $alt-four;
+
+    &:hover {
+      border: 0;
+    }
   }
 
   span {
@@ -46,37 +57,47 @@ header {
 }
 
 a {
-  color: $alt-four;
   text-decoration: none;
+
+  color: $alt-four;
 }
 
 .work,
 .contact,
 .colophon {
-  width: 33%;
-  float: left;
-  margin-bottom: 1em;
   line-height: 1.6;
+
+  float: left;
+
+  width: 33%;
+  margin-bottom: 1em;
 }
 
 ul {
   padding: 0;
+
   list-style: none;
+
   text-align: center;
+
   li {
-    font-size: 0.875em;
-    color: $alt-four;
     font-family: $tertiary-font-family;
+    font-size: .875em;
+
+    color: $alt-four;
   }
 }
 
 .colophon {
   p {
-    margin: 0 auto;
-    max-width: 240px;
-    text-align: center;
-    font-size: 0.875em;
-    color: $alt-four;
     font-family: $tertiary-font-family;
+    font-size: .875em;
+
+    max-width: 240px;
+    margin: 0 auto;
+
+    text-align: center;
+
+    color: $alt-four;
   }
 }
